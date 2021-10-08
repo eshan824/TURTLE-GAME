@@ -2,7 +2,7 @@
 """
 Created on Wed Sep  1 12:16:45 2021
 
-@author: DELL
+@author: ESHAN
 """
 
 import pygame
@@ -12,8 +12,8 @@ pygame.mixer.init()
 GAME_END = pygame.USEREVENT
 
 
-WINNER_SOUND = pygame.mixer.Sound("E:/PROJECTS/PYTHON PROJECTS/GAMES/TURTLE RACE/winner.mp3")
-TURTLE = pygame.image.load("E:/PROJECTS/PYTHON PROJECTS/GAMES/TURTLE RACE/turtle.png")
+WINNER_SOUND = pygame.mixer.Sound("E:/PROJECTS/PYTHON PROJECTS/GAMES/TURTLE RACE/MAIN CODE FILE/data/winner.mp3")
+TURTLE = pygame.image.load("E:/PROJECTS/PYTHON PROJECTS/GAMES/TURTLE RACE/MAIN CODE FILE/data/turtle.png")
 
 WIDTH, HEIGHT = 620, 750
 WINDOW = pygame.display.set_mode((WIDTH, HEIGHT))
